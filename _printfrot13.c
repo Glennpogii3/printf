@@ -1,11 +1,11 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-  * print_rot13 - encodes a string into rot13.
+  * _printfrot13 - encodes a string into rot13.
   * @R: string to convert
   * Return: size the output text
   */
-int print_rot13(va_list R)
+int _printfrot13(va_list R)
 {
 	int j, i, count = 0;
 	char *r;
