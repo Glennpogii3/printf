@@ -78,6 +78,7 @@ int main(void)
 	num = 98;
 	string = "Hello, Holberon!"
 	_printf("%s is %i.\n", string, num);
+
 	return (0);
 }
 ```
