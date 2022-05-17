@@ -19,6 +19,7 @@ int _print_str(char *string)
 		}
 	else
 		return (_print_str("(null)"));
+
 	return (count);
 }
 
