@@ -10,5 +10,6 @@ int to_Binary(unsigned int n);
 int to_Octal(unsigned int n);
 int _power_recursion(int x, int y);
 int to_Hexa(unsigned int num);
+int _printfrot13(va_list R);
 
 #endif
