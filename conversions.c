@@ -70,5 +70,6 @@ int to_Hexa(unsigned int num)
 	}
 	for (i = j - 1; i >= 0; i--)
 		chars_counter += _putchar(hexa[i]);
+	
 	return (chars_counter);
 }
