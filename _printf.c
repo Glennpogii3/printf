@@ -63,9 +63,6 @@ int _printf(const char *format, ...)
 				case 'X':
 					total += to_Hexa(va_arg(args, int));
 					break;
-				case 'r':
-					total += print_rev(va_arg(args, int));
-					break;
 				default:
 					_putchar('%');
 					_putchar(format[count]);
