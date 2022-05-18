@@ -64,7 +64,7 @@ int _printf(const char *format, ...)
 					total += to_Hexa(va_arg(args, int));
 					break;
 				case 'r':
-					total += print_rev(va_list(args, int));
+					total += print_rev(va_arg(args, int));
 					break;
 				default:
 					_putchar('%');
